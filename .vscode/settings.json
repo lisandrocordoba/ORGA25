@@ -4,6 +4,9 @@
         "stdint.h": "c",
         "type.h": "c",
         "stdlib.h": "c",
-        "list.h": "c"
+        "list.h": "c",
+        "array": "c",
+        "string_view": "c",
+        "initializer_list": "c"
     }
 }

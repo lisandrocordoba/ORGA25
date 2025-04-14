@@ -27,19 +27,19 @@ ntfs_t* new_ntfs(){
 
 fat32_t* copy_fat32(fat32_t* file){
     fat32_t* new_file = new_fat32();
-    for (size_t i = 0; i < size_ntfs; i++) new_file[i] = file[i];     // LLENO EL ARCHIVO DE 80 PQ SI
+    for (size_t i = 0; i < size_ntfs; i++) new_file[i] = file[i]; 
     return new_file;
 }
 
 ext4_t* copy_ext4(ext4_t* file){
     ext4_t* new_file = new_fat32();
-    for (size_t i = 0; i < size_ext4; i++) new_file[i] = file[i];     // LLENO EL ARCHIVO DE 80 PQ SI
+    for (size_t i = 0; i < size_ext4; i++) new_file[i] = file[i];   
     return new_file;
 }
 
 ntfs_t* copy_ntfs(ntfs_t* file){
     ntfs_t* new_file = new_ntfs();
-    for (size_t i = 0; i < size_ntfs; i++) new_file[i] = file[i];     // LLENO EL ARCHIVO DE 80 PQ SI
+    for (size_t i = 0; i < size_ntfs; i++) new_file[i] = file[i];  
     return new_file;
 }
 

@@ -4,7 +4,7 @@ TARGET = bin
 
 all: $(TARGET)
 
-SRCS = type.c list.c main.c
+SRCS = list.c main.c
 OBJS = $(SRCS:.c=.o)
 
 $(TARGET): $(OBJS)
