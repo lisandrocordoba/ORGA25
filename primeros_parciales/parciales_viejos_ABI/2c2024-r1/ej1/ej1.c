@@ -10,7 +10,7 @@
  * Funciones a implementar:
  *   - es_indice_ordenado
  */
-bool EJERCICIO_1A_HECHO = true;
+bool EJERCICIO_1A_HECHO = false;
 
 /**
  * Marca el ejercicio 1B como hecho (`true`) o pendiente (`false`).
@@ -18,7 +18,7 @@ bool EJERCICIO_1A_HECHO = true;
  * Funciones a implementar:
  *   - contarCombustibleAsignado
  */
-bool EJERCICIO_1B_HECHO = true;
+bool EJERCICIO_1B_HECHO = false;
 
 /**
  * Marca el ejercicio 1B como hecho (`true`) o pendiente (`false`).
@@ -26,7 +26,7 @@ bool EJERCICIO_1B_HECHO = true;
  * Funciones a implementar:
  *   - modificarUnidad
  */
-bool EJERCICIO_1C_HECHO = true;
+bool EJERCICIO_1C_HECHO = false;
 
 /**
  * OPCIONAL: implementar en C

@@ -221,8 +221,8 @@ modificarUnidad:
 	call malloc		; rax = *unidad_modificada
 
 	; Copio la clase
-	mov rdi, [rax + ATTACKUNIT_CLASE]
-	mov rsi, [rbx + ATTACKUNIT_CLASE]
+	mov rdi, rax + ATTACKUNIT_CLASE
+	mov rsi, rbx + ATTACKUNIT_CLASE
 	mov [rbp-8], rax	; preservo unidad_modificada
 	call strcpy
 	mov rax, [rbp-8]
